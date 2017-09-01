@@ -26,7 +26,7 @@
 
   <groupId>io.syndesis</groupId>
   <artifactId>syndesis-connectors-project</artifactId>
-  <version>0.4-SNAPSHOT</version>
+  <version>0.4.0.fuse-000008</version>
   <packaging>pom</packaging>
   <name>Syndesis Connectors :: Project</name>
 
@@ -84,7 +84,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <camel.version>2.19.0</camel.version>
+    <camel.version>2.20.0.fuse-000091</camel.version>
     <spring-boot.version>1.4.5.RELEASE</spring-boot.version>
 
     <!-- maven plugin version -->
