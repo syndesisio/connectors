@@ -15,8 +15,6 @@
  */
 package io.syndesis.example;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,8 +24,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloRestController {
-
-    private static final Logger LOG = LoggerFactory.getLogger(HelloRestController.class);
 
     @RequestMapping(value = "/myservice/hello", method = RequestMethod.GET, produces = "application/json")
     public String hello() {
